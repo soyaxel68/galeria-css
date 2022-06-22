@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(19, 81, 117);
+    margin: 20px 20px;
+}
+
+h1{
+    color: yellow;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor img{
+    height: 200px;
+    margin: 4px;
+    border: 5px solid;
+    border-color: rgb(255, 255, 255);
+}
+
